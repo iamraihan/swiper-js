@@ -44,3 +44,53 @@
   line-height: 32px;
   color: #908e8e;
 }
+
+/* slider  */
+#swiper-button-next-slide.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: url("./images/Group\ 17573\ \(1\).svg");
+}
+#swiper-button-prev-slide.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: url("./images/Group\ 17574\ \(2\).svg");
+}
+
+@media (max-width: 640px) {
+  #swiper-button-prev-slide {
+    left: calc(45% - 40px);
+    margin-bottom: 12px;
+  }
+  #swiper-button-next-slide {
+    right: calc(96% - 40px);
+    margin-bottom: 12px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: unset !important;
+    bottom: 0px;
+    position: absolute;
+  }
+  .slider {
+    flex-direction: column;
+  }
+  .bio {
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  #swiper-button-prev-slide {
+    left: calc(98% - 40px);
+  }
+  #swiper-button-next-slide {
+    right: calc(13% - 40px);
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: unset !important;
+    bottom: 170px;
+    position: absolute;
+  }
+  .slider {
+    flex-direction: row;
+  }
+}

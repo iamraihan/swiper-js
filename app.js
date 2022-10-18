@@ -3,7 +3,7 @@ var swiper = new Swiper(".mySwiper", {
     delay: 5000,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: "#swiper-button-next-slide",
+    prevEl: "#swiper-button-prev-slide",
   },
 });
