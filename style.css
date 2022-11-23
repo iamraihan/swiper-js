@@ -46,7 +46,12 @@
   line-height: 32px;
   color: #908e8e;
 }
-
+.swiper-all-content {
+  text-align: center;
+  font-size: 60px;
+  color: black;
+  padding: 30px 0;
+}
 /* slider  */
 #swiper-button-next-slide.swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
